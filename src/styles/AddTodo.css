@@ -1,0 +1,31 @@
+input {
+  padding-left: 2px;
+  border: solid 1px #aaa;
+  border-radius: 5px;
+}
+
+.inputTitle {
+  height: 30px;
+}
+
+.AddFormBtn {
+  padding: 3px 5px;
+  height: 30px;
+  min-width: 65px;
+  background-color: rgb(50, 82, 107);
+  border-radius: 5px;
+  margin-right: 3px;
+  color: #fff;
+}
+
+button:disabled {
+  background-color: rgb(47, 80, 105);
+  border: #ddd;
+  color: #aaa;
+  opacity: 0.5;
+}
+
+.AddForm {
+  width: 100%;
+  padding-top: 30px;
+}

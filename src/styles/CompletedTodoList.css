@@ -1,0 +1,31 @@
+.CompletedList {
+  list-style: none;
+}
+
+span {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.CompTitle,
+.CompDetails {
+  width: 220px;
+}
+
+.CompStatus {
+  width: 130px;
+}
+
+.CompDeadline,
+.CompCreatedAt {
+  width: 100px;
+}
+
+.CompListBtn {
+  padding: 3px 5px;
+  min-width: 65px;
+  background-color: rgb(50, 82, 107);
+  border-radius: 5px;
+  margin-right: 3px;
+  color: #fff;
+}

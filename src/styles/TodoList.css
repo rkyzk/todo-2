@@ -1,0 +1,97 @@
+.DisplayOptions {
+  margin-top: -9px;
+  height: 36px;
+}
+
+.Filter {
+  margin: 10px 0 0 486px;
+  padding-left: 2px;
+  width: 90px;
+  border: solid #ccc 1px;
+  border-radius: 5px;
+  height: 28px;
+  background-color: #fff;
+  font-size: 0.9rem;
+}
+
+.Arrow {
+  width: 80px;
+  font-weight: 700;
+  background-color: rgb(50, 82, 107);
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 17px;
+}
+
+/** テーブルのヘッダー */
+.HdTitle {
+  margin-left: 2px;
+}
+
+.HdDetails {
+  margin-left: 160px;
+}
+
+.HdStatus {
+  margin-left: 188px;
+}
+
+.HdDeadline {
+  margin-left: 53px;
+}
+
+.HdCreatedAt {
+  margin-left: 71px;
+}
+
+.TodoList {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-right: 3px;
+  height: 30px;
+  padding: 2px 0 0 2px;
+  border: solid rgb(50, 82, 107) 1px;
+  border-radius: 5px;
+}
+
+.TodoListTitle,
+.TodoListDetails {
+  width: 220px;
+}
+
+.TodoListDeadline,
+.TodoListCreatedAt {
+  width: 100px;
+}
+
+.TodoListStatus {
+  width: 130px;
+  height: 30px;
+  background-color: #fff;
+  border: solid rgb(50, 82, 107) 1px;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+
+.TodoListDeadline,
+.TodoListCreatedAt {
+  width: 100px;
+  margin: 0 3px 0 0;
+}
+
+.EditFormBtn {
+  padding: 3px 5px;
+  min-width: 65px;
+  background-color: rgb(50, 82, 107);
+  border-radius: 5px;
+  margin-right: 3px;
+  color: #fff;
+}
+
+.CancelBtn {
+  font-size: 0.7rem;
+  height: 30px;
+}
